@@ -10,22 +10,10 @@
     <div class="container">
       <!-- HALAMAN AWAL -->
       <div class="header_container bg-img pad_up">
-        <!-- HEADER -->
         <app-bar></app-bar>
-        <!-- END HEADER -->
-        <!-- HERO -->
-        <div class="hero">
-          <div class="hero_field">
-            <span class="hero_title">Unlimited movies, TV shows, and more</span>
-            <span class="hero_subtitle">
-              Find the latest and greatest movies and shows all available on
-              SakuFilm
-            </span>
-            <button class="hero_button">Get Started</button>
-          </div>
-        </div>
-        <!-- END HERO -->
+        <section-hero></section-hero>
         <!-- SEARCH INPUT -->
+        <div id="numpang_search"></div>
         <div class="search_container">
           <div class="search" id="search">
             <input
@@ -56,15 +44,28 @@
           </div>
           <!-- END POPULAR -->
           <!-- LIST MOVIE CATEGORY -->
-          <div class="grup_cat" id="list_tab">
+          <div class="grup_cat list_bg" id="list_tab">
             <div class="cat_title">Movie List Category</div>
-            <div class="cat_m_list">
+            <div class="cat_m_list cat_lists">
               <!-- CARDS -->
             </div>
           </div>
           <!-- END MOVIE CATEGORY -->
           <!-- TAB MOVIE BY CATEGORY -->
           <div class="movie_by_list" id="moviebylist_tab">
+              <!-- CARDS -->
+          </div>
+          <!-- END MOVIE BY CATEGORY -->
+          <!-- LIST TV CATEGORY -->
+          <div class="grup_cat list_bg" id="list_tab">
+            <div class="cat_title">TV List Category</div>
+            <div class="cat_tv_list cat_lists">
+              <!-- CARDS -->
+            </div>
+          </div>
+          <!-- END MOVIE CATEGORY -->
+          <!-- TAB MOVIE BY CATEGORY -->
+          <div class="tv_by_list" id="tvbylist_tab">
               <!-- CARDS -->
           </div>
           <!-- END MOVIE BY CATEGORY -->
